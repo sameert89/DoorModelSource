@@ -41,8 +41,15 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Zeiss.Timers">
+      <HintPath>..\Zeiss.Timers\bin\Debug\Zeiss.Timers.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Alert.cs" />
+    <Compile Include="AutoClose.cs" />
+    <Compile Include="Operator.cs" />
+    <Compile Include="PagerNotify.cs" />
     <Compile Include="TimerController.cs" />
     <Compile Include="IDoor.cs" />
     <Compile Include="Program.cs" />
